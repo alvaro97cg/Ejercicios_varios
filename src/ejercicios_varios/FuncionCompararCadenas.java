@@ -36,7 +36,6 @@ public class FuncionCompararCadenas {
         boolean esIgual = false;
         
         if (cadena1.length() == cadena2.length()){
-                esIgual = false;
             for (int i = 0;i<cadena1.length()-1;i++){
                 if (cadena1.charAt(i) == cadena2.charAt(i)){
                     esIgual = true;
